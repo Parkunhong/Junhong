@@ -1,18 +1,96 @@
 <!DOCTYPE html>
 <html lang="ko-KR">
-  <!--언어코드 : en-EN or ko-KR-->
- <head>
+<!--언어코드 : en-EN or ko-KR-->
+
+<head>
   <meta charset="utf-8">
   <title>준홍 실습 HTML 페이지</title>
 
-   <meta name="author" content="">
-   <meta name="description" content="">
-   <meta name="keywords" content="">
-   <meta property="og:title" content="준홍 실습 HTML 페이지">
- 
- </head>
+  <meta name="author" content="">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta property="og:title" content="준홍 실습 HTML 페이지">
+  <meta property="og:description" content="3주차 강의 실습중 입니다.">
+  <link href="style.css" type="text/css" rel="stylesheet">
+   <style>
+    p{
+      font-size: 20px;
+    }
+    </style>
+
+    <script>
+      //alert('환영합니다.')  
+    </script>
+    <script scr="index.js"></script>
+</head>
+
 <body>
- <p>This is my home!!</p>
+
+  <h1 id="main title">제목태그 첫 번째 진행</h1>
+    
+    <p>p태그는 본문 내 텍스트 쓸 때 사용</p>
+    <p>글자크기 줄이자고 h태그 사용 X, css활용<br/>엔터하고 싶을 때는 br태그 활용<br/>줄간격 늘리고 싶을 때 <br>br남발은 구조적으로 옳지 않아 style 활용할 것</p>
   
+  <h2>난이도</h2>
+    <ul>
+      <li>나열은 ul, li태그 활용</li>
+      <li>순서없을 때는 ul </li>
+      <li>요소 나열, 메뉴 구성시 사용</li>
+      <li>나열은 ul, li태그 활용</li>
+    </ul>
+
+    <ol>
+      <li>나열은 ol, li태그 활용</li>
+      <li>순서있을 때는 ol </li>
+      <li>알아서 넘버링 됨</li>
+    </ol>
+        
+    <ol reversed>
+      <li>나열은 ol, li태그 활용</li>
+      <li>순서있을 때는 ol </li>
+      <li>알아서 넘버링 됨</li>
+      <li>거꾸로 할 때 reversed 활용</li>
+    </ol>
+
+    <ol start="14">
+      <li>나열은 ol, li태그 활용</li>
+      <li>순서있을 때는 ol </li>
+      <li>알아서 넘버링 됨</li>
+      <li>시작하는 단어 정할 수 있음 start 활용</li>
+    </ol>
+
+    <ol start="14" reversed>
+      <li>나열은 ol, li태그 활용</li>
+      <li>순서있을 때는 ol </li>
+      <li>알아서 넘버링 됨</li>
+      <li>시작하는 단어 정할 수 있음 start 활용</li>
+      <li>거꾸로도 가능 시작 단어 지정 후 뒤에 reversed 활용</li>
+    </ol>
+
+    <ol start="14" type="A">.
+      <!-- type a A 알파벳 i I 로마자 -->
+      <li>나열은 ol, li태그 활용</li>
+      <li>순서있을 때는 ol </li>
+      <li>알아서 넘버링 됨</li>
+      <li>시작하는 숫자 단어로 바꿀 수 있음</li>
+      <li>a는 알파벳 i는 로마자</li>
+    </ol>
+
+  <a href="https://www.google.com/">Go to Google</a><br>
+
+  <a href="https://www.google.com/" target="_blank">Go to Google</a>
+  <br>새탭으로 열기 위해서 a태그 적고 target 적은 뒤 _blank 로
+
+  <a href="#main title">가장 위로 가기</a>
+  <br>본문 내 위치로 보낼때는 h태그 중 id 지정 후 링크를 # 해당 id로
+  
+  <h2>체감상 중</h2>
+  <h3>홈페이지 혼자 만들 수 있을까?</h3>
+  
+
+  
+  <p>실습중</p>
+
 </body>
+
 </html>
